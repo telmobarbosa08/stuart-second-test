@@ -1,0 +1,18 @@
+# compiled output
+.vscode
+/logs
+/build
+/node_modules
+/postman
+
+# code formatter
+.eslintrc.json
+.eslintignore
+
+# docker
+Dockerfile
+docker-compose.yml
+
+.env
+.env.example
+README.md

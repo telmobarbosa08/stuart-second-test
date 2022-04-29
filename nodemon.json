@@ -1,0 +1,11 @@
+{
+  "restartable": "rs",
+  "verbose": true,
+  "ignore": [".git/", "node_modules/", "dist/", "*.test.js"],
+  "watch": ["src/", ".env"],
+  "execMap": {
+    "ts": "node -r ts-node/register"
+  },
+  "ext": "js,json,ts",
+  "exec": "ts-node -r tsconfig-paths/register --transpile-only src/server.ts"
+}
